@@ -1,0 +1,46 @@
+.footer-container
+{
+      background-color: var(--negro);
+      color: white;
+      padding: 1%;
+}
+.footer-container .text-footer
+{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-size: 1.2em;
+      height: 100%;
+      width: 100%;
+}
+.parrafo3
+{
+      width: 25%;
+}
+.icons
+{
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: column;
+}
+.redes
+{
+      margin-top: 4%;
+}
+.icons div
+{
+      display:flex;
+      padding: 2%;
+}
+.parrafo5
+{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 2%;
+}
+#separador
+{
+      margin-top: 21%;
+}
