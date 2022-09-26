@@ -1,0 +1,15 @@
+.titulo{
+    font-size: 1.7em;
+    display: flex;
+    justify-content: center;
+    background-color: var(--negro);
+    align-items: center;
+    color: white;
+    height: 7em;  
+}
+.carOpinion{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    color: rgb(255, 255, 255);  
+}

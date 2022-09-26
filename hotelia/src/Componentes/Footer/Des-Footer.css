@@ -1,0 +1,13 @@
+.one_text p {
+    width: 100%;
+    height: auto;
+    font-size: 125%;
+    margin-bottom: 3%;
+}.red{
+    margin-top: 3%;
+    font-size: 1.3em;
+    width: 50%;
+    display: flex; 
+    justify-content: space-between;
+}
+

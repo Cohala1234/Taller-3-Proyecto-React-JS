@@ -1,0 +1,19 @@
+.footer-container{
+    background-color: var(--negro);
+    color: white;
+    padding: 1.5%;
+}
+.textos{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}.des{
+    width: 20%;
+    height: auto;
+}.ubi{
+    width: 30%;
+    height: auto;
+}.poli{
+    width: 15%;
+    height: auto;  
+}
