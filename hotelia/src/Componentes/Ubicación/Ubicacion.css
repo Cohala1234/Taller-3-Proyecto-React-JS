@@ -1,0 +1,26 @@
+.tit h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    font-size: 3.2em;
+}.mapa{
+    display: flex;
+    justify-content: center;
+    padding: 2.5rem;
+}.mapa iframe{
+    width: 100%;
+}.inf h3{
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+}.linea{
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #337AB7;
+    width: 50%;
+    height: 0.1em;   
+}.inf{
+    padding: 2em;
+}

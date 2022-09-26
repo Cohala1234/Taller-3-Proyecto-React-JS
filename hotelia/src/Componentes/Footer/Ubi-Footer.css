@@ -1,0 +1,10 @@
+.icons p{
+    margin-left: 2%;
+}.icons{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;  
+}.icons div{
+    display:flex;
+    padding: 2%; 
+}
