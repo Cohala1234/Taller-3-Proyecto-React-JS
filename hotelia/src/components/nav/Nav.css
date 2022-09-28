@@ -24,14 +24,14 @@ nav a
       padding: 1rem;
       transition: .5s all ease;
 }
-.logo img
+.logoQ img
 {
       height: 3rem;     
 }
-
 @media screen and (min-width: 769px)
 {
-      .logo i
+      /*NAV*/
+      .logoQ i
       {
             display: none;
       }
@@ -42,7 +42,8 @@ nav a
 }
 @media screen and (min-width: 400px) and (max-width: 426px) 
 {
-      .logo
+      /*NAV*/
+      .logoQ
       {
             background-color: var(--negro2);
             display: flex;
@@ -52,12 +53,12 @@ nav a
             width: 100%;
             padding: 1%;
       }
-      .logo img
+      .logoQ img
       {
             width: 100%;
             max-width: 200px;
       }
-      .logo i
+      .logoQ i
       {
             color: var(--blanco);
             font-size: 2rem;
@@ -101,14 +102,14 @@ nav a
             font-family: 'Marcellus', serif;
             color: var(--blanco);
       }
-      nav
+      nav 
       {
             display: flex;
             flex-direction: column;
             padding: 1%;
-            background-color: #000;   
-            transition: .5s ease;  
-            width: 26em;
+            background-color: #000;
+            transition: .5s ease;
+            width: 26.3em;
       }
       .menu
       {
@@ -124,7 +125,8 @@ nav a
 }
 @media screen and (min-width: 427px) and (max-width: 473px) 
 {
-      .logo
+      /*NAV*/
+      .logoQ
       {
             background-color: var(--negro2);
             display: flex;
@@ -134,12 +136,12 @@ nav a
             width: 100%;
             padding: 1%;
       }
-      .logo img
+      .logoQ img
       {
             width: 100%;
             max-width: 200px;
       }
-      .logo i
+      .logoQ i
       {
             color: var(--blanco);
             font-size: 2rem;
@@ -183,14 +185,14 @@ nav a
             font-family: 'Marcellus', serif;
             color: var(--blanco);
       }
-      nav
+      nav 
       {
             display: flex;
             flex-direction: column;
             padding: 1%;
-            background-color: #000;   
-            transition: .5s ease;  
-            width: 26.6em;
+            background-color: #000;
+            transition: .5s ease;
+            width: 27.8em;
       }
       .menu
       {
@@ -207,7 +209,8 @@ nav a
 
 @media screen and (min-width: 473px) and (max-width: 768px) 
 {
-      .logo
+      /*NAV*/
+      .logoQ
       {
             background-color: var(--negro2);
             display: flex;
@@ -217,12 +220,12 @@ nav a
             width: 100%;
             padding: 1%;
       }
-      .logo img
+      .logoQ img
       {
             width: 100%;
             max-width: 200px;
       }
-      .logo i
+      .logoQ i
       {
             color: var(--blanco);
             font-size: 2rem;
@@ -266,13 +269,14 @@ nav a
             font-family: 'Marcellus', serif;
             color: var(--blanco);
       }
-      nav
+      nav 
       {
             display: flex;
             flex-direction: column;
             padding: 1%;
-            background-color: #000;   
-            transition: .5s ease;  
+            background-color: #000;
+            transition: .5s ease;
+            width: 30em;
       }
       .menu
       {

@@ -5,11 +5,11 @@ function Nav()
 {
     return(
             <nav>
-                <div class="logo">
+                <div class="logoQ">
                     <i className="fa-solid fa-bars hamb"></i>
                     <img src={imagen} alt="Logo Hotelia"/>
                 </div>
-                <div className="menu">
+                <div class="menu">
                     <Link to="/" className="item">Inicio</Link>
                     <Link to="/" className="item">Ubícanos</Link>
                     <Link to="/" className="item">Opiniones</Link>
