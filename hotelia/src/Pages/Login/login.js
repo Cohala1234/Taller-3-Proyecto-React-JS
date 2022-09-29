@@ -1,29 +1,31 @@
 import "./login.css"
 import logov from './Hotelia-horizontal-negro.svg';
-
+import { Link } from "react-router-dom";
 
 function Login() {
     return(
+<div className="container-complete">
     <div className="container">
             <div id="logo">
-                <a href=""><img src={logov}/></a>
+                <img src={logov}/>
             </div>
         <div className="login">
             <i className="fa-solid fa-user"></i>
             <form action="#">
                 <div className="iniciosesion">
-                    <label for="">Usuario</label>
-                    <input type="text"/>
+                    <div className="labe"><label for="">Usuario</label></div>
+                    <input className="inpu" type="text"/>
                 </div>
                 <div className="iniciosesion">
-                    <label for="">Contraseña</label>
-                    <input type="text"/>
+                <div className="labe"><label for="">Contraseña</label></div>
+                <input className="inpu" type="text"/>
                 </div>
-                <button id="boton"> <a href="dashboard.html">Ingresar</a></button>
-                <p>¿No tienes una cuenta?<a href="registro.html">Regístrate aquí.</a></p>
+                <button id="boton"> <Link className="ingre">Ingresar</Link></button>
+                <p className="par">¿No tienes una cuenta?<Link to="/registro" className="ingr">Regístrate aquí.</Link></p>
             </form>
         </div>
     </div>
+</div>
     );
 }       
 

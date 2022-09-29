@@ -1,0 +1,144 @@
+
+.formulario{
+    background-color: rgba(255, 255, 255, 0.651);
+    grid-column: 10/30;
+    grid-row: 3/ 50;
+    border-radius: 14px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column; 
+}.tittle{
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}.form{
+    margin-top: 2%;
+    font-size: 1.5em;
+ 
+}.radio{
+    font-size: 0.9em;
+}.doc{
+    display: flex;
+    justify-content: space-around;
+}.nam{
+    display: flex;
+    justify-content: space-around;
+}.nac{
+    display: flex;
+    justify-content: space-around;
+}.em{
+    display: flex;
+    justify-content: space-around;
+}.coun{
+    display: flex;
+    justify-content: space-around;
+}.pass{
+    display: flex;
+    justify-content: space-around;
+}.terminos{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}#info{
+    width: 40%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+}#info input, select{
+    margin-top: 2%;
+    height: 2.24em;
+    border-radius: 2%;
+    box-shadow: 2px 2px 9px #000;
+}.terminos a{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 2%;
+}.terminos button{
+    font-size: 0.9em;
+     width: 8em;
+    height: 2em;
+    color: #FFFEFC;
+    background-color: #000;
+}
+
+@media screen and (min-width: 320px) and (max-width: 620px){
+   
+    .Container{
+
+        background-size: cover;
+        display: grid;
+        height: auto;
+    }
+    .logos{
+        background-color: #05498579;
+        grid-column: 1/51;
+        grid-row: 2/8;
+    }.formulario{
+        grid-column: 2/30;
+        grid-row: 9/53;
+    }.imga{
+        margin-top: 0%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }.logos img{
+
+        width: 60%;
+    }.bienvenido{
+        display: none;
+    }.tittle{
+        font-size: 1.3em;
+    }.texts{
+        margin-top: 1%;
+        display: flex;
+        font-size: 0.5em;
+    }.radio{
+        font-size: 1em;
+    }.doc{
+        display: flex;
+        flex-direction: column;
+    }.nam{
+        display: flex;
+        flex-direction: column;
+    }.nac{
+        display: flex;
+        flex-direction: column;
+    }.em{
+        display: flex;
+        flex-direction: column;
+    }.coun{
+        display: flex;
+        flex-direction: column;
+    }.pass{
+        
+        display: flex;
+        flex-direction: column;
+    }#info{
+        width: 80%;
+        margin-left: 10%;
+    }.form{
+        font-size: 1em;
+    }.terminos{
+        font-size: 0.8em;
+    }
+}
+/*portatil*/
+@media screen and (min-width: 621px) and (max-width:1024px) {
+    .bienvenido{
+        font-size: 0.7em;
+        margin-left: 5%;
+    }.tittle{
+        margin-top: 6%;
+        font-size: 2em;
+    }.form{
+        margin-top: 7%;
+    }.terminos{
+        margin-top: 5%;
+    }
+
+}
