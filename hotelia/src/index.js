@@ -6,7 +6,6 @@ import Login from './Pages/Login/login.js';
 import Regristo from './Pages/Registrarse/registro.js';
 
 
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>

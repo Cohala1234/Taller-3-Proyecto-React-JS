@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./ladoIzq.css"
+import "./modal.js"
 
 function LadoIzq() {
     return(
@@ -82,12 +83,19 @@ function LadoIzq() {
                         </div> 
                         </div>
                 </div>
-                <div class="terminos">
-                  <a href="condiciones.html"><p> <input type="checkbox"/> Términos y condiciones</p></a>
+                <div className="terminos">
+                  <p id="termino"><input type="checkbox"/>Términos y condiciones</p>
                   <Link to="/" className="ing"><button>Ingresar</button></Link>
                 </div>
-                
-                </div>
+
+        <div className="modalito" id="modalito">
+            <div className="modal_cotainer" id="modal_container">
+                <span id="close" className="material-symbols-outlined">X</span>
+                <h1>Terminos y condiciones</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque atque, unde officiis sapiente quis aperiam quas perferendis odit ipsam velit exercitationem ratione repudiandae cupiditate tempore laborum nemo iusto, aliquam dolorem!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque corporis voluptatem inventore dolorem eum delectus ratione sapiente veritatis doloribus, ipsam laboriosam et dolorum velit ab fugit! Harum consequatur voluptates sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae minus laboriosam, qui sit accusantium iure fuga quos beatae illum, fugiat iste soluta incidunt, molestias id inventore? Pariatur suscipit error iure.</p>
+            </div>
+        </div>
+    </div>
             
          );  
 
