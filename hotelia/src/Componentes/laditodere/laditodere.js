@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
-import "./ladoIzq.css"
-import "./modal.js"
+import "./laditodere.css";
 
-function LadoIzq() {
+            
+
+function laditodere() {
+    
     return(
         <div class="formulario">
                   <div class="tittle"><h1>Regístrate</h1></div>
@@ -87,7 +89,7 @@ function LadoIzq() {
                   <p id="termino"><input type="checkbox"/>Términos y condiciones</p>
                   <Link to="/" className="ing"><button>Ingresar</button></Link>
                 </div>
-
+      
         <div className="modalito" id="modalito">
             <div className="modal_cotainer" id="modal_container">
                 <span id="close" className="material-symbols-outlined">X</span>
@@ -96,9 +98,8 @@ function LadoIzq() {
             </div>
         </div>
     </div>
-            
-         );  
-
+    
+    );  
 }
 
-export default LadoIzq;
+export default laditodere;

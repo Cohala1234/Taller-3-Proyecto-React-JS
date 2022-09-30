@@ -1,14 +1,14 @@
 import "./registro.css"
-import LadoDere from "../../Componentes/ladoDere/ladoDere.js";
+/*import LadoDere from "../../Componentes/ladoDere/ladoDere.js";*/
 import LadoIzq from "../../Componentes/ladoIzq/ladoIzq.js";
 
-function Regristo() {
+
+function Registro() {
     return(
         <div className="Container" id="Container">
-            <LadoDere />
             <LadoIzq />
         </div>
     );
 }
 
-export default Regristo;
+export default Registro;

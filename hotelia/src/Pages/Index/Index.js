@@ -9,7 +9,7 @@ import Footer from '../../Componentes/Footer/Footer';
 
 function Index() {
     return(
-<div className='container'>
+<div className='conta'>
     <Header/>
     <Banner/>
     <Descripcion/>

@@ -1,6 +1,7 @@
-import "./ladoDere.css"
+
+import "./laditoizq.css"
 import logo from "./Hotelia-horizontal-blanco.svg"
-function LadoDere() {
+function laditoizq() {
     return(
             <div className="logos">
                 <div className="imga">
@@ -16,4 +17,4 @@ function LadoDere() {
     );
 }
 
-export default LadoDere;
+export default laditoizq;
