@@ -1,30 +1,19 @@
 import "./login.css"
-import logovt from './Hotelia-horizontal-negro.svg';
-import {Link} from "react-router-dom";
+import Cuadrito from "./cuadrito";
+import logtv from "./Hotelia-horizontal-negro.svg"
 
 function Login() {
     return(
 <div className="container-complete">
-    <div className="container">
-            <div id="logo">
-                <img src={logovt } alt="logot" />
-            </div>
-        <div className="login">
-            <i className="fa-solid fa-user"></i>
-            <form action="#">
-                <div className="iniciosesion">
-                    <div className="labe"><label for="">Usuario</label></div>
-                    <input className="inpu" type="text"/>
-                </div>
-                <div className="iniciosesion">
-                <div className="labe"><label for="">Contraseña</label></div>
-                <input className="inpu" type="text"/>
-                </div>
-                <button id="boton"> <Link className="ingre">Ingresar</Link></button>
-                <p className="par">¿No tienes una cuenta?<Link to="/registro" className="ingre">Regístrate aquí.</Link></p>
-            </form>
-        </div>
-    </div>
+        <Cuadrito 
+        logv={logtv}
+        icono='fa-solid fa-user'
+        text1='Usuario'
+        text2='Contraseña'
+        text3="Ingresar"
+        text4="¿No tienes una cuenta?  "
+        text5=" Registrate aqui..."
+        />
 </div>
     );
 }       
