@@ -28,10 +28,15 @@
 {
       margin-left: 2%;
 }
-#calificacion img
+#calificacion img 
 {
-      width: 14%;
+      width: 75%;
       height: 3.5em;
+      margin-left: 16%;
+}
+.arregloEstrellas
+{
+      display: flex;
 }
 .nombre
 {

@@ -5,6 +5,7 @@ function Feature()
     return(
         <section id="feature">
             <h2>Razones por las que disfrutarás quedarte con nosotros</h2>
+            <section id="empezar"></section>
             <div className="feature-row">
                 <CardFeature
                 texto='Reservas'
@@ -23,7 +24,9 @@ function Feature()
                 background={false}
                 icono='fa-solid fa-dumbbell'/>
             </div>
+            
         </section>
+        
     );
 }
 export default Feature;

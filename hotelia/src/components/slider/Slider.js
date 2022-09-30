@@ -6,7 +6,7 @@ function Slider()
     return(
             <section class="slider">  
                 <div class="contenido">
-                    <img src={imagen2} id="pt"/>
+                    <img src={imagen2} id="pt" alt="imageen"/>
                     <section id="banner">
                         <h4>Lorem ipsum dolor sit ameliter,<br/>
                         consectetur adipiscing elit</h4>

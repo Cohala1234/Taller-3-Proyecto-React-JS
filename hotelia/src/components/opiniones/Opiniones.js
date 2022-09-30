@@ -1,3 +1,7 @@
+import PropsPhoto from "./PropsPhoto.js";
+import PropsNombre from "./PropsNombre.js";
+import PropsIcono from "./PropsIcono.js";
+import PropsTexto from "./PropsTexto";
 import imagen4 from "./stock1.webp";
 import "./Opiniones.css";
 function Opiniones()
@@ -10,68 +14,86 @@ function Opiniones()
             <div class="carrusel">   
                 <div id="calificacion" >
                     <div class="nombre">
-                        <img src={imagen4}/>
+                        <PropsPhoto 
+                        photoo={imagen4}/>
                         <div class="estrellas">
-                            <h5>Diego rodriguez</h5>
-                            <div>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-regular fa-star"></i>
+                            <PropsNombre 
+                            nombre="Diego Rodriguez"/>
+                            <div class="arregloEstrellas">
+                                <PropsIcono 
+                                iconoW={true}/>
+                                <PropsIcono 
+                                iconoW={true}/>
+                                <PropsIcono 
+                                iconoW={true}/>
+                                <PropsIcono 
+                                iconoW={true}/>
+                                <PropsIcono 
+                                iconoW={false}/>
                             </div>
                         </div>
                     </div>
                     <div class="descripcion">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectet adipiscing elit.
-                            Elit quis enim ultricies ullamcorper.
-                            Nunc aenean auctor vel diam dictum.
-                        </p>
+                        <PropsTexto 
+                        descripcion="Lorem ipsum dolor sit amet, consectet adipiscing elit.
+                        Elit quis enim ultricies ullamcorper.
+                        Nunc aenean auctor vel diam dictum."/>
                     </div>
                 </div>
                 <div id="calificacion" >
                     <div class="nombre">
-                        <img src={imagen4}/>
+                        <PropsPhoto 
+                        photoo={imagen4}/>
                         <div class="estrellas">
-                            <h5>Diana Garcia</h5>
-                            <div>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-regular fa-star"></i>
+                            <PropsNombre 
+                            nombre="Diego Rodriguez"/>
+                            <div class="arregloEstrellas">
+                                <PropsIcono 
+                                iconoW={true}/>
+                                <PropsIcono 
+                                iconoW={true}/>
+                                <PropsIcono 
+                                iconoW={true}/>
+                                <PropsIcono 
+                                iconoW={true}/>
+                                <PropsIcono 
+                                iconoW={false}/>
                             </div>
                         </div>
                     </div>
                     <div class="descripcion">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectet adipiscing elit.
-                            Elit quis enim ultricies ullamcorper.
-                            Nunc aenean auctor vel diam dictum.
-                        </p>
+                        <PropsTexto 
+                        descripcion="Lorem ipsum dolor sit amet, consectet adipiscing elit.
+                        Elit quis enim ultricies ullamcorper.
+                        Nunc aenean auctor vel diam dictum."/>
                     </div>
                 </div>
                 <div id="calificacion" >
                     <div class="nombre">
-                        <img src={imagen4}/>
+                        <PropsPhoto 
+                        photoo={imagen4}/>
                         <div class="estrellas">
-                            <h5>Diego rodriguez</h5>
-                            <div>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-regular fa-star"></i>
+                            <PropsNombre 
+                            nombre="Diego Rodriguez"/>
+                            <div class="arregloEstrellas">
+                                <PropsIcono 
+                                iconoW={true}/>
+                                <PropsIcono 
+                                iconoW={true}/>
+                                <PropsIcono 
+                                iconoW={true}/>
+                                <PropsIcono 
+                                iconoW={true}/>
+                                <PropsIcono 
+                                iconoW={false}/>
                             </div>
                         </div>
                     </div>
                     <div class="descripcion">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectet adipiscing elit.
-                            Elit quis enim ultricies ullamcorper.
-                            Nunc aenean auctor vel diam dictum.
-                        </p>
+                        <PropsTexto 
+                        descripcion="Lorem ipsum dolor sit amet, consectet adipiscing elit.
+                        Elit quis enim ultricies ullamcorper.
+                        Nunc aenean auctor vel diam dictum."/>
                     </div>
                 </div>
             </div>
