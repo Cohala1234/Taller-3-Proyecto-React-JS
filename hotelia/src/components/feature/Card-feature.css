@@ -52,3 +52,19 @@
             margin-top: 5%;
       }
 }
+@media screen and (min-width: 473px) and (max-width: 768px) 
+{
+      /*FEACTURE*/
+      .box-dark 
+      {
+            background-color: rgba(0, 0, 0, 0.5);
+            width: 12em;
+            margin-top: 3%;
+      }
+      .box-blue 
+      {
+            background-color: #00325eae;
+            width: 12em;
+            margin-top: 2%;
+      }
+}

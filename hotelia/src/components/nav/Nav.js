@@ -14,7 +14,7 @@ function Nav()
                     <Link to="/" className="item">Ubícanos</Link>
                     <Link to="/" className="item">Opiniones</Link>
                     <hr className="menu-hr" noshade=""/>
-                    <Link to="/dashboard" className="item"><button ><i className="fa-solid fa-user"></i>Iniciar Sesión</button></Link>
+                    <Link to="/login" className="item"><button ><i className="fa-solid fa-user"></i>Iniciar Sesión</button></Link>
                 </div>
             </nav>
         );

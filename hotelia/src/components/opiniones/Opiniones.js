@@ -3,7 +3,7 @@ import "./Opiniones.css";
 function Opiniones()
 {
     return(
-            <section class="opiniones">
+            <section id="opiniones" class="opiniones">
             <div class="titulo">
                 <h1>Nuestros usuarios dicen...</h1>
             </div>

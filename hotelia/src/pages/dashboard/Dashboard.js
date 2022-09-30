@@ -3,7 +3,7 @@ import MenuDer from '../../components/divMenuDer/MenuDer.js';
 function Dashboard()
 {
     return(
-        <div className="container1">
+        <div className="dashboardContainer">
             <MenuIzq/>
             <MenuDer/>
         </div>

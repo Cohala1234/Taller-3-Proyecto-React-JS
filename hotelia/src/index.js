@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Inicio from './pages/inicio/Inicio.js';
+import Login from './pages/login/Login.js';
 import Dashboard from './pages/dashboard/Dashboard.js';
+import Regristo from './pages/registrarse/Registro.js';
 import {BrowserRouter,Route, Routes} from 'react-router-dom';
 import './index.css';
 
@@ -10,7 +12,9 @@ root.render(
   <BrowserRouter>
   <Routes>
       <Route path="/" element={<Inicio />}/>
+      <Route path="/login" element={<Login />}/>
       <Route path="/dashboard" element={<Dashboard />}/>
+      <Route path='/registro' element={<Regristo />}/>
   </Routes>
   </BrowserRouter>
 );

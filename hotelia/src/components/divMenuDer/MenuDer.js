@@ -23,37 +23,37 @@ function MenuDer()
                         <div class="formularioDatos">
                             <form action="">
                                 <div class="contenedor2">
-                                    <div class="formulario">
+                                    <div class="formularioQ">
                                         <label for="">Tipo de documento</label>
                                         <input type="text"/>
                                     </div>
-                                    <div class="formulario">
+                                    <div class="formularioQ">
                                         <label for="">Número de documento</label>
                                         <input type="text"/>
                                     </div>
                                 </div>
                                 <div class="contenedor2">
-                                    <div class="formulario">
+                                    <div class="formularioQ">
                                         <label for="">Nombres</label>
                                         <input type="text"/>
                                     </div>
-                                    <div class="formulario">
+                                    <div class="formularioQ">
                                         <label for="">Apellidos</label>
                                         <input type="text"/>
                                     </div>
                                 </div>
                                 <div class="contenedor2">
-                                    <div class="formulario">
+                                    <div class="formularioQ">
                                         <label for="">Fecha nacimiento</label>
                                         <input type="text"/>
                                     </div>
-                                    <div class="formulario">
+                                    <div class="formularioQ">
                                         <label for="">País de origen</label>
                                         <input type="text"/>
                                     </div>
                                 </div>
                                 <div class="contenedor2">
-                                    <div class="formulario">
+                                    <div class="formularioQ">
                                         <label for="">Género</label>
                                         <div class="radio">
                                             <label for="">Mujer</label>
@@ -64,7 +64,7 @@ function MenuDer()
                                             <input type="radio"/>
                                         </div>
                                     </div>
-                                    <div class="formulario separadorQ">
+                                    <div class="formularioQ separadorQ">
                                         <label for="">Teléfono de contacto</label>
                                         <input type="text"/>
                                     </div>
@@ -75,23 +75,23 @@ function MenuDer()
                                         <input type="text"/>
                                     </div>
                                 </div>
-                                <div class="formulario">
-                                    <div class="formulario">
+                                <div class="formularioQ">
+                                    <div class="formularioQ">
                                         <a href="" class="diseno"><h2>Actualizar</h2></a>
                                     </div>
                                 </div>
                                 <div class="contenedor3">
-                                    <div class="formulario">
+                                    <div class="formularioQ">
                                         <label for="">Contraseña</label>
                                         <input type="text"/>
                                     </div>
-                                    <div class="formulario separadorr">
+                                    <div class="formularioQ separadorr">
                                         <label for="">Confirmar contraseña</label>
                                         <input type="text"/>
                                     </div>
                                 </div>
                                 <div class="contenedor3">
-                                    <div class="formulario">
+                                    <div class="formularioQ">
                                         <a href="" class="diseno"><h2>Cambiar</h2></a>
                                     </div>
                                 </div>

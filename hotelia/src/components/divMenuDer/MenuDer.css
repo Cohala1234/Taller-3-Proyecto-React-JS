@@ -196,30 +196,30 @@ i#icono
     display: flex;
     justify-content: space-around;
 }
-.formulario
+.formularioQ
 {
     
     display: flex;
     flex-direction: column;
 }
-.formulario input
+.formularioQ input
 {
     width: 25em;
     height: 2em;
     border: none;
     border-bottom: 2px solid var(--gris);
 }
-.formulario input[type=radio]
+.formularioQ input[type=radio]
 {
     width: 5em;
 }
-.formulario .radio
+.formularioQ .radio
 {
     display: flex;
     padding: 0em;
     margin-left: -6%;
 }
-.formulario.separadorr
+.formularioQ.separadorr
 {
     margin-left: 4%;
 }
@@ -228,7 +228,7 @@ i#icono
     display: flex;
     margin: 0.5em;
 }
-.formulario a
+.formularioQ a
 {
     display:    flex;
     background: var(--negro);
@@ -238,14 +238,14 @@ i#icono
     justify-content: center;
     align-items: center;
 }
-.formulario label
+.formularioQ label
 {
     color: black;
     font-size: 1.2em;
     font-weight: 500;
     padding: 0.2em;
 }
-.formulario a h2
+.formularioQ a h2
 {
     font-weight: 100;
 }
@@ -255,7 +255,7 @@ i#icono
     justify-content: center;
     align-items: center;
 }
-.formulario.separadorQ
+.formularioQ.separadorQ
 {
     margin-left: -7%;
 }
@@ -377,12 +377,12 @@ i#icono
         height: 100%;
         margin-bottom: 10%;
     }
-    .left-formulario input
+    .left-formularioQ input
     {
         margin-top: 5%;
         margin-bottom: 10%;
     }
-    .right-formulario input
+    .right-formularioQ input
     {
         margin-top: 5%;
         margin-bottom: 8%;
@@ -396,11 +396,11 @@ i#icono
     {
         margin: 1em;
     }
-    .formulario input
+    .formularioQ input
     {
         width: 90%;
     }
-    .formulario input[type=radio]
+    .formularioQ input[type=radio]
     {
         width: 2em;
     }
@@ -408,7 +408,7 @@ i#icono
     {
         margin: 1em;
     }
-    .formulario a
+    .formularioQ a
     {
         width: 12em;
     }
@@ -416,11 +416,11 @@ i#icono
     {
         display: none;
     }
-    .formulario.separadorQ
+    .formularioQ.separadorQ
     {
         margin-left: 2%;
     }
-    .formulario .radio
+    .formularioQ .radio
     {
         margin-left: 2%;
     }

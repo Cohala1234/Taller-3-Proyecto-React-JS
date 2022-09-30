@@ -8,7 +8,7 @@ import Footer from '../../components/footer/Footer.js';
 function Inicio()
 {
     return(
-        <div className="container">
+        <div className="iniciocontenedor">
             <Nav/>
             <Slider/>
             <Feature/>

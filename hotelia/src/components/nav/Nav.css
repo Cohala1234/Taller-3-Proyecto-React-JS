@@ -7,6 +7,8 @@ nav
     font-family: 'Marcellus', serif;
     font-size: 1.3em;
     padding: 1.5rem;
+    position: sticky;
+    top: 0%;
 }
 .item button
 {
