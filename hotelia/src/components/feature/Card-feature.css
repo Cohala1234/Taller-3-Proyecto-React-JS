@@ -58,13 +58,13 @@
       .box-dark 
       {
             background-color: rgba(0, 0, 0, 0.5);
-            width: 12em;
+            width: 35%;
             margin-top: 3%;
       }
       .box-blue 
       {
             background-color: #00325eae;
-            width: 12em;
+            width: 35%;
             margin-top: 2%;
       }
 }

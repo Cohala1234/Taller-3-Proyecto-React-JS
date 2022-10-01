@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./ladoIzq.css"
+import "./ladoIzq.css";
 function LadoIzq() {
     return(
         <div class="formulario">
