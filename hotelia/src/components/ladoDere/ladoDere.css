@@ -1,0 +1,97 @@
+.logos{
+    background-color: #003564b0;
+    grid-column: 1/9;
+    grid-row: 1/50;
+}
+.imga img{
+    width: 80%;
+}
+.imga{
+    margin-top: -12%;
+    color: white;
+    font-size: 3em;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}.bienvenidos P{
+    font-size: 0.8em;
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 80%;
+}.texts{
+    display: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 620px){
+   
+    .logos{
+        background-color: #05498579;
+        grid-column: 1/51;
+        grid-row: 2/8;
+    }.formulario{
+        grid-column: 2/30;
+        grid-row: 9/53;
+    }.imga{
+        margin-top: 0%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }.logos img{
+
+        width: 60%;
+    }.bienvenidos{
+        display: none;
+    }.tittle{
+        font-size: 1.3em;
+    }.texts{
+        margin-top: 1%;
+        display: flex;
+        font-size: 0.5em;
+    }.radio{
+        font-size: 1em;
+    }.doc{
+        display: flex;
+        flex-direction: column;
+    }.nam{
+        display: flex;
+        flex-direction: column;
+    }.nac{
+        display: flex;
+        flex-direction: column;
+    }.em{
+        display: flex;
+        flex-direction: column;
+    }.coun{
+        display: flex;
+        flex-direction: column;
+    }.pass{
+        
+        display: flex;
+        flex-direction: column;
+    }#info{
+        width: 80%;
+        margin-left: 10%;
+    }.form{
+        font-size: 1em;
+    }.terminos{
+        font-size: 0.8em;
+    }
+}
+/*portatil*/
+@media screen and (min-width: 621px) and (max-width:1024px) {
+    .bienvenidos{
+        font-size: 0.7em;
+        margin-left: 5%;
+    }.tittle{
+        margin-top: 6%;
+        font-size: 2em;
+    }.form{
+        margin-top: 7%;
+    }.terminos{
+        margin-top: 5%;
+    }
+
+}

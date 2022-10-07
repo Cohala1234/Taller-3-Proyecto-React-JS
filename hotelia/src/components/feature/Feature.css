@@ -1,0 +1,74 @@
+#feature
+{
+    background-image: url("bg-features.png");
+    color: var(--blanco);
+    padding: 1.5rem 0;
+}
+#feature h2
+{
+    text-align: center;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 0.5rem;
+    font-weight: 400;
+    text-shadow: 3px 3px 3px #000000;
+}
+.feature-row
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 400px) and (max-width: 426px) 
+{
+      /*FEACTURES*/
+      #feature 
+      {
+            color: var(--blanco);
+            padding: 1.5rem 0;
+            width: 34.1em;
+      }
+      .feature-row 
+      {
+            display: flex;
+            flex-direction: column;
+            width: 15em;
+            margin: 0 auto;
+      }
+}
+@media screen and (min-width: 427px) and (max-width: 473px) 
+{
+      /*FEACTURES*/
+      #feature 
+      {
+            color: var(--blanco);
+            padding: 1.5rem 0;
+            width: 36.1em;
+      }
+      .feature-row 
+      {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+      }
+}
+
+@media screen and (min-width: 473px) and (max-width: 768px) 
+{
+      /*FEACTURE*/
+      #feature 
+      {
+            color: var(--blanco);
+            padding: 1.5rem 0;
+            width: 39em;
+      }
+      .feature-row 
+      {
+            display: flex;
+            justify-content: space-around;
+            /* flex-direction: column; */
+            align-items: center;
+            flex-wrap: wrap;
+      }
+}

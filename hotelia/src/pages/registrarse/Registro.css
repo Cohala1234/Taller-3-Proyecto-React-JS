@@ -1,0 +1,10 @@
+.Container
+{
+    background:url(hotel1.jpg);
+    background-size: cover;
+    display: grid;
+    grid-template-columns:  repeat(30, 1fr); 
+    grid-template-rows: repeat(30, 1fr);  
+    height: 100vh;
+}
+
