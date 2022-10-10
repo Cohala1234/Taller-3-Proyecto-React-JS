@@ -1,14 +1,14 @@
-.formulario2{
+.formulario{
     background-color: rgba(255, 255, 255, 0.651);
     grid-column: 10/30;
     grid-row: 3/ 50;
     border-radius: 14px;
 }
-.formulario2{
+.formulario{
     display: flex;
     flex-direction: column; 
 }.tittle{
-    font-size: 2em;
+    font-size: 2.5em;
     display: flex;
     justify-content: center;
     margin-top: 4%;
@@ -21,7 +21,6 @@
 }.doc{
     display: flex;
     justify-content: space-around;
-    
 }.nam{
     display: flex;
     justify-content: space-around;
@@ -37,47 +36,37 @@
 }.pass{
     display: flex;
     justify-content: space-around;
-}.termin{
-    margin-top: 2%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.info{
-    width: 40%;
-    margin-top: 1.5%;
+}.terminos{
+    margin-top: 3%;
     display: flex;
     flex-direction: column;
-} .info input , .info select{
+    align-items: center;
+}.info{
+    width: 40%;
     margin-top: 2%;
-    height: 2.4em;
-    width: 95%;
+    display: flex;
+    flex-direction: column;
+}.info input, select{
+    margin-top: 2%;
+    height: 2.24em;
     border-radius: 2%;
-   box-shadow: 1px 2px 6px #000;
-}.termin p{
-    font-size: 1.6em;
+    box-shadow: 2px 2px 9px #000;
+}.terminos p{
+    font-size: 1.5em;
     text-decoration: none;
     color: black;
-}.guar {
-    margin-top: 2%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.boton234
-{
+    margin-bottom: 1%;
+}.terminos button{
     font-size: 1.7em;
      width: 8em;
     height: 2em;
     color: #FFFEFC;
     background-color: #000;
 }
-
-
+.boton234
+{
+    padding: 2%;
+}
 
 /*Modal*/
 .modalito{
@@ -85,7 +74,6 @@
     opacity: 0;
     pointer-events: none
 }
-
 
 .modalito_show{
     position: fixed;
@@ -137,10 +125,10 @@
     .logos{
         background-color: #05498579;
         grid-column: 1/51;
-        grid-row: 2/7;
-    }.formulario2{
+        grid-row: 2/8;
+    }.formulario{
         grid-column: 2/30;
-        grid-row: 8/53;
+        grid-row: 9/53;
     }.imga{
         margin-top: 0%;
         display: flex;
@@ -188,19 +176,8 @@
         font-size: 0.8em;
     }
 }
-@media screen and (min-width: 621px) and (max-width: 1024px) {
- 
-    .container {
-        padding-top: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        opacity: 0.82;
-        padding-bottom: 2rem;
-        border-radius: 2px;
-        padding: 1%;
-        height: 90vh;
-    }    
+@media screen and (min-width: 621px) {
+    
 .tittle {
     font-size: 1.5em;
     display: flex;
@@ -226,7 +203,7 @@
     display: flex;
     padding: 0em;
     margin-left: 1%;
-}.info input, .info select {
+}.info input, select {
     margin-top: -1%;
     height: 2em;
     border-radius: 4%;

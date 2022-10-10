@@ -1,71 +1,14 @@
 import imagen9 from "./stock2.jpeg";
 import "https://kit.fontawesome.com/6131ecdde6.js";
-import axios from "axios";
-import { useEffect,useState } from "react";
-import { Container, Form } from "react-bootstrap";
-import { useNavigate } from "react-router";
-import Swal from 'sweetalert2';
 import "./MenuDer.css";
 function MenuDer()
 {
-    const history=useNavigate();
-
-      const [data,setData]=useState({_id:"",tipodoc:"",nombre:"",apellido:"",
-      fnacimiento:"",genero:"",email:"",telefono:"",paisorigen:"",password:"",tipouser:"",img:""});
-    
-      const handleChange=({target})=>{
-            setData({
-                  ...data,
-                  [target.name]:target.value
-            })
-      }
-
-    const url="https://hoteliakuepa.herokuapp.com/users/?_id=1001095924";  
-
-    /*2. Creó función para conectarse a la api y ejecutar petición tipo get */
-    const getData=async()=>
-    {
-        const response=axios.get(url);
-        return response;
-    }
-
-    /*3. useState para guardar la respuesta de la petición en un estado*/
-    const [list,setList]=useState([]);
-
-    /*4 usseEfect para ejecutar funciones desde el inicio del renderizado */
-    useEffect(()=>{
-        getData().then((response)=>{ //promesa
-            setList(response.data); //escribir en el useState List
-        })
-    },[])
-
-        const handleSubmit=async(e)=>{
-            e.preventDefault();
-            const response=await axios.put(url,data);
-            if (response.status === 201) 
-            {
-                  Swal.fire(
-                        'Error!',
-                        'Hubo un problema al registrar el huesped!',
-                        'error'
-                  )
-                
-            }
-            else {
-                  Swal.fire(
-                        'Guardado!',
-                        `El huesped ha sido guardado exitosamente!`,
-                        'success'
-                  )
-            }
-        }
     return(
             <div class="menuder">
-                <Container>
+                <div class="contenedor">
                     <div class="tituloBienvenido">
                         <h2>Bienvenido, Angie Vargas</h2>
                     </div>
-                    {list.map((us)=>(
                     <div class="menuderabajo">
                         <div class="fotomenuder">
                             <img src={imagen9} alt=""/>
@@ -82,47 +25,65 @@ function MenuDer()
                                 <div class="contenedor2">
                                     <div class="formularioQ">
                                         <label for="">Tipo de documento</label>
-                                        <input type="text" value={us.tipodoc}/>
+                                        <input type="text"/>
                                     </div>
                                     <div class="formularioQ">
                                         <label for="">Número de documento</label>
-                                        <input type="text" value={us._id}/>
+                                        <input type="text"/>
                                     </div>
                                 </div>
                                 <div class="contenedor2">
                                     <div class="formularioQ">
                                         <label for="">Nombres</label>
-                                        <input type="text" value={us.nombre}/>
+                                        <input type="text"/>
                                     </div>
                                     <div class="formularioQ">
                                         <label for="">Apellidos</label>
-                                        <input type="text" value={us.apellido}/>
+                                        <input type="text"/>
                                     </div>
                                 </div>
                                 <div class="contenedor2">
                                     <div class="formularioQ">
                                         <label for="">Fecha nacimiento</label>
-                                        <input type="text" value={us.fnacimiento}/>
+                                        <input type="text"/>
                                     </div>
                                     <div class="formularioQ">
                                         <label for="">País de origen</label>
-                                        <input type="text" value={us.paisorigen}/>
+                                        <input type="text"/>
                                     </div>
                                 </div>
                                 <div class="contenedor2">
                                     <div class="formularioQ">
+                                        <label for="">Género</label>
+                                        <div class="radio">
+                                            <label for="">Mujer</label>
+                                            <input type="radio"/>
+                                            <label for="">Hombre</label>
+                                            <input type="radio"/>
+                                            <label for="">Otro</label>
+                                            <input type="radio"/>
+                                        </div>
+                                    </div>
+                                    <div class="formularioQ separadorQ">
                                         <label for="">Teléfono de contacto</label>
-                                        <input type="text" value={us.telefono}/>
+                                        <input type="text"/>
                                     </div>
-                                    <div class="formularioQ">
+                                </div>
+                                <div class="contenedor3">
+                                    <div class="formulario">
                                         <label for="">Email</label>
-                                        <input type="text" value={us.email}/>
+                                        <input type="text"/>
                                     </div>
-                                </div> 
+                                </div>
+                                <div class="formularioQ">
+                                    <div class="formularioQ">
+                                        <a href="" class="diseno"><h2>Actualizar</h2></a>
+                                    </div>
+                                </div>
                                 <div class="contenedor3">
                                     <div class="formularioQ">
                                         <label for="">Contraseña</label>
-                                        <input type="text" value={us.password}/>
+                                        <input type="text"/>
                                     </div>
                                     <div class="formularioQ separadorr">
                                         <label for="">Confirmar contraseña</label>
@@ -137,9 +98,7 @@ function MenuDer()
                             </form>
                         </div>
                     </div>
-                    ))
-                    }
-                </Container>
+                </div>
             </div>
         );
 }

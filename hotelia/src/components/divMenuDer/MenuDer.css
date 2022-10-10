@@ -1,4 +1,4 @@
-/*.nombreCorreo .fotoPerfil #foto
+.nombreCorreo .fotoPerfil #foto
 {
     display: none;
     width: 4em;
@@ -261,7 +261,7 @@ i#icono
 }
 
 
-
+/********************/
 
 @media screen and (max-width: 1080px)
 {
@@ -452,8 +452,4 @@ i#icono
         margin-left: 3%;
     }
     
-}*/
-.informacion23
-{
-    margin-left: 41%;
 }
