@@ -13,8 +13,8 @@ function Nav()
                 </div>
                 <div class="menu">
                     <Link to="/" className="item">Inicio</Link>
-                    <a href="#empezar" className="item">Ubícanos</a>
-                    <a href="#opiniones" className="item">Opiniones</a>
+                    <Link to="/listarAc/" className="item">Ubícanos</Link>
+                    <Link to="/user/" className="item">Opiniones</Link>
                     <hr className="menu-hr" noshade=""/>
                     <Link to="/login" className="item"><button><PropsNav iconoQ="fa-solid fa-user"/>Iniciar Sesión</button></Link>
                 </div>

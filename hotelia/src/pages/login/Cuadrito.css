@@ -1,4 +1,4 @@
-.container
+.container2
 {
     background:  url(./Cuadrito.jpeg) no-repeat;
     display: flex;
@@ -85,6 +85,8 @@
 #logo img
 {
     width:10rem;
+    margin-top: -12%;
+
 }
 #logo
 {
@@ -108,6 +110,8 @@
     #logo img
     {
         width:10rem;
+    margin-top: 4%;
+
     }
     #logo
     {
@@ -115,7 +119,7 @@
         justify-content: flex-start;
         padding: 1rem;
     }
-    .container
+    .container2
     {
         display: flex;
         flex-direction: column;
@@ -135,7 +139,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: -7%;
+        margin-top: 10%;
     
     }
     .login i {

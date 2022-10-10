@@ -6,6 +6,8 @@ import Dashboard from './pages/dashboard/Dashboard.js';
 import Regristo from './pages/registrarse/Registro.js';
 import Error from './components/error/Error.js';
 import {BrowserRouter,Route, Routes} from 'react-router-dom';
+import Users from './pages/Users.js';
+import Modal from './pages/modal.js';
 import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,6 +19,8 @@ root.render(
         <Route path="/dashboard" element={<Dashboard />}/>
         <Route path='/registro' element={<Regristo />}/>
         <Route path='/error' element={<Error />} />
+        <Route path='/user/' element={<Users/>}></Route>
+        <Route path='/listarAc/' element={<Modal/>}></Route>
     </Routes>
   </BrowserRouter>
 );

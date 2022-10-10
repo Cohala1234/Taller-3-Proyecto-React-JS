@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 
 function Cuadrito({logv, icono, text1, text2, text3,text4, text5 }) {
     return(
-    <div className="container">
+    <div className="container2">
             <div id="logo">
                 <img src={logv} alt="logot" />
             </div>
