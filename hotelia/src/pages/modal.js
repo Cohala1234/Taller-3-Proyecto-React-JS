@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { Container, Form, Modal, Row } from 'react-bootstrap';
 import Swal from 'sweetalert2';
 import CardEstudiante from './ListarAc.js';
+import { Link } from "react-router-dom";
 
 function ListHuesped(){
 
@@ -68,6 +69,13 @@ function ListHuesped(){
 
     //console.log(list);
     return(
+
+        <div>
+            <Link to="/registro">registrar Usuario</Link>
+            <Link to="/user">consultar Usuario</Link>
+            <h1>Lista de Usuarios</h1>
+        </div>
+        ,
         
        <Container>
            <Row>

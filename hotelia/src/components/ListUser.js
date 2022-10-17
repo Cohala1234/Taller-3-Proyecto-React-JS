@@ -1,5 +1,6 @@
 import axios from 'axios';
 import { useEffect,useState} from "react";
+import Table from 'react-bootstrap/Table';
 
 function ListUser(){
 
@@ -28,7 +29,8 @@ function ListUser(){
     
     return(
         <>
-            <table border="1">
+            <Table striped bordered hover class="table-responsive">
+            <thead>
                 <tr>
                     <th>No. Documento</th>
                     <th>Tipo <br/> Documento</th>
@@ -41,7 +43,9 @@ function ListUser(){
                     <th>Contraseña</th>
                     <th>Tipo de Usuario</th>
                 </tr>
+            </thead>
                 {list.map((us)=>(
+                <tbody>
                     <tr>
                         <td>{us._id}</td>
                         <td>{us.tipodoc}</td>
@@ -54,13 +58,16 @@ function ListUser(){
                         <td>{us.password}</td>
                         <td>{us.tipouser}</td>
                     </tr>
+                </tbody>
                 ))
                 }
                 
-            </table>
+            </Table>
         </>
     );
     }
 
 
 export default ListUser;
+
+

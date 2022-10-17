@@ -1,4 +1,5 @@
 import axios from "axios";
+import { Link } from "react-router-dom";
 import { useState } from "react";
 import { Container, Form } from "react-bootstrap";
 import { useNavigate } from "react-router";
@@ -43,7 +44,7 @@ function LadoIzq()
         }
 
         return(
-            <div class="formulario">
+            <div class="formulario2">
                   <Container>
                   <div class="tittle"><h1>Regístrate</h1></div>
                   <Form class="form" onSubmit={handleSubmit}>
@@ -117,11 +118,19 @@ function LadoIzq()
                                     <input className="in" type="password" placeholder="Ingrese su contraseña"/>
                               </div>
                         </div>
-                        <p id="termino"><input type="checkbox"/>Términos y condiciones</p>
-                        <button className="boton234" onClick={handleSubmit}>Guardar</button>
+
+                  <div className="termin">
+                        <input type="checkbox" className="check"/>
+                        <p id="termino" className="terminos">Términos y condiciones</p> 
+                  </div>
+
+                  <div className="guar">     
+                        <Link to="/login" className="ite"><button className="boton234" onClick={handleSubmit} >Guardar</button></Link>
+                  </div>      
                         <div className="modalito" id="modalito">
-                              <div className="modal_cotainer" id="modal_container">
-                                    <span id="close" className="material-symbols-outlined">X</span>
+                             
+                         <div className="modal_cotainer" id="modal_container">
+                              <span id="close" className="material-symbols-outlined">X</span>
                                     <h1>Terminos y condiciones</h1>
                                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque atque, unde officiis sapiente quis aperiam quas perferendis odit ipsam velit exercitationem ratione repudiandae cupiditate tempore laborum nemo iusto, aliquam dolorem!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque corporis voluptatem inventore dolorem eum delectus ratione sapiente veritatis doloribus, ipsam laboriosam et dolorum velit ab fugit! Harum consequatur voluptates sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae minus laboriosam, qui sit accusantium iure fuga quos beatae illum, fugiat iste soluta incidunt, molestias id inventore? Pariatur suscipit error iure.</p>
                               </div>
@@ -129,6 +138,9 @@ function LadoIzq()
                   </Form>
                   </Container>
             </div>
+
+
+
         );
 }
 export default LadoIzq;

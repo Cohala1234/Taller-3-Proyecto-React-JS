@@ -13,6 +13,7 @@ function Nav()
                 </div>
                 <div class="menu">
                     <Link to="/" className="item">Inicio</Link>
+                    <Link to="/user" className="item">Usuarios</Link>
                     <Link to="/listarAc/" className="item">Ubícanos</Link>
                     <Link to="/user/" className="item">Opiniones</Link>
                     <hr className="menu-hr" noshade=""/>

@@ -55,7 +55,8 @@ function ListarAc({users,setUplist,upList,handleOpen,setDataModal}){
         setDataModal(users);
     }
     return(
-        <div className="col-4 mb-3">
+
+        <div className="col-4 mb-3 lol"> 
         <Card style={{ width: '18rem' }}>
             <Card.Body>
                 <Card.Title className="text-center">{users.nombre} {users.apellido}</Card.Title>
@@ -64,7 +65,6 @@ function ListarAc({users,setUplist,upList,handleOpen,setDataModal}){
                 <strong>No. Documento: </strong>{users.numdoc}<br/>                
                 </Card.Text>
                 <button className="btn btn-warning me-2" onClick={handleEdit}>Editar</button>
-                <button className="btn btn-danger" onClick={handleDelete}>Eliminar</button>
             </Card.Body>
             
         </Card>
